@@ -6,7 +6,7 @@
 
 Let us understand this algorithm with a example. We are finding 22 in a sorted list (1, 2, 4, 5, 8, 9, 11, 22, 23, 28, 32)
 
-![Binary Search](http://mikebuss.com/images/posts/binary-search/BinarySearch.png)
+![Binary Search](https://github.com/kartikpatel0170/DSA-with-cplusplus/blob/main/Searching/Binary%20Search/Binary%20Search.gif)
 
 1. Here, mid element is 9 and 22 is greater than 9. So, it is in other half.
 2. Then, new mid element is 23, 22 is less than 22 than means it is among indices between element 9 and 23.
@@ -69,23 +69,4 @@ end procedure
 
 ## Implementation
 
-- [CoffeeScript Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Binary_Search/Binary_Search.coffee)
-> :rocket: [Compile Online](https://repl.it/C9ze) :rocket:
-
 - [C++ Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Binary_Search/Binary_Search.cpp)
-> :rocket: [Compile Online](https://repl.it/C6n3) :rocket:
-
-- [C# Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Binary_Search/Binary_Search.cs)
-> :rocket: [Compile Online](https://repl.it/Cx3Q) :rocket:
-
-- [Java Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Binary_Search/Binary_Search.java)
-> :rocket: [Compile Online](https://repl.it/C6n1) :rocket:
-
-- [Php Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Binary_Search/Binary_Search.php)
-> :rocket: [Compile Online](https://repl.it/C9zo) :rocket:
-
-- [Python Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Binary_Search/Binary_Search.py)
-> :rocket: [Compile Online](https://repl.it/C6nZ) :rocket:
-
-- [Ruby Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Binary_Search/Binary_Search.rb)
-> :rocket: [Compile Online](https://repl.it/Cx3T) :rocket:

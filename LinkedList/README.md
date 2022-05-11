@@ -1,4 +1,16 @@
 ### LinkedList
+- [Single Linked List](Single_Linked_List.cpp)
+
+    Single_Linked_List is a one-way, one-way list with the simplest structure of the Linked List. 
+    
+    Time complexity = Θ(n)
+
+- [Doubly Linked List](DoublyLinkedList.cpp)
+
+    DoublyLinkedList is not a one-way connection, but a left-right linked list. 
+    
+    Time complexity = Insert at beginning or end & Delete at beginning or end : O(1), Search : O(n), Access : O(n)
+
 - [Circular Linked List Operations](Circular%20Linked%20List%20Operations.cpp)
 
     Circular Linked List Operation puts the linked list in the want position. 
@@ -11,17 +23,12 @@
     
     Time complexity = O(1)
 
-- [Deletion Circular LL](DeletionCircularLL.cpp)
+- [Deletion Circular LinkedLIst](DeletionCircularLL.cpp)
     
     DeletionCircularLL is a combination of functions 1 and 2. 
     
     Time complexity = O(1)
 
-- [Doubly Linked List](DoublyLinkedList.cpp)
-
-    DoublyLinkedList is not a one-way connection, but a left-right linked list. 
-    
-    Time complexity = Insert at beginning or end & Delete at beginning or end : O(1), Search : O(n), Access : O(n)
 
 - [Flatten List](Flatten_List.cpp)
 
@@ -53,8 +60,3 @@
     
     Time complexity = O(n)
 
-- [Single Linked List](Single_Linked_List.cpp)
-
-    Single_Linked_List is a one-way, one-way list with the simplest structure of the Linked List. 
-    
-    Time complexity = Θ(n)

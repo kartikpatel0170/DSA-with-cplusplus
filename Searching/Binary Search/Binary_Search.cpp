@@ -63,13 +63,13 @@ int upperBound(int array[], int size, int desired)
 int main()
 {
     int num;
-    scanf("%d", &num);
+    cin >> num;
     int array[num];
     for (int i = 0; i < num; i++) {
-        scanf("%d", &array[i]);
+        cin >> array[i];
     }
     int desired;
-    scanf("%d", &desired);
+    cin >> desired;
     if (binarySearch(array, num, desired) != -1)
         cout << "Found" << endl;
     else

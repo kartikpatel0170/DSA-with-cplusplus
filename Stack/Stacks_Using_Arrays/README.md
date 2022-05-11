@@ -60,10 +60,5 @@ pop(stk):
 **Space complexity** : O(n)
 
 ## Implementation
-* [C Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Stacks_Using_Arrays/Stacks.c)
 
 * [C++ Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Stacks_Using_Arrays/Stacks.cpp)
-
-* [Java Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Stacks_Using_Arrays/Stacks.java)
-
-* [Python Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Stacks_Using_Arrays/Stacks.py)
