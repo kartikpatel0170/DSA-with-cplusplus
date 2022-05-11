@@ -1,4 +1,48 @@
 ### LinkedList
+
+A [linked list](https://en.wikipedia.org/wiki/Linked_list) is a linear data structure, in which the elements are not stored at contiguous memory locations (like an array). The elements are **linked** using pointers. Linked lists are among the simplest and most common data structures. 
+
+In basic terms, each element points to the next. A linked list consists of nodes where each node contains data pertaining to that node and a reference (address) of the next node. 
+
+Note: This article pertains information about singly linked list.
+
+## Types of Linked List
+
+* [Singly linked list]()
+* [Circular linked list](https://github.com/jainaman224/Algo_Ds_Notes/tree/master/Circular_Linked_List)
+* [Doubly linked list](https://github.com/jainaman224/Algo_Ds_Notes/tree/master/Doubly_Linked_List)
+
+![Linked List Picture](https://cdn-images-1.medium.com/max/2600/1*GOKmkucFHN_gmTMUtyC2sQ.png)
+
+## Advantages 
+
+* Linked list is a  **Dynamic Data Structure**. Meaning it's size can grow and shrink during runtime. 
+* Insertion and Deletion operations are easier as compared to arrays. 
+
+## Disadvantages
+
+* They use more memory than arrays because they use pointers.
+* Accessing an element has to be done sequentially, i.e, start from the first node. 
+* Nodes are stored incontigously which increases time required to access individual elements.
+
+## Applications
+
+* Implementation of stacks and queues can be done using linked list.
+* Music Player: Songs are linked to previous and next song. 
+* Implementation of graphs.
+* Implementation of hash maps. 
+* Performing arithmetic operations on long integers. 
+
+## Implementation
+The links provided below are for singly linked lists.
+* [C++ Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Linked_List/Linked_List.cpp)
+
+
+
+
+
+## Time Complexity
+
 - [Single Linked List](Single_Linked_List.cpp)
 
     Single_Linked_List is a one-way, one-way list with the simplest structure of the Linked List. 
@@ -16,47 +60,3 @@
     Circular Linked List Operation puts the linked list in the want position. 
 
     Time complexity = O(n)
-
-- [Deleting a Node in Linked List](Deleting%20a%20node%20in%20linklist.cpp)
-
-    Deleting a node in linked list can delete the desired node. 
-    
-    Time complexity = O(1)
-
-- [Deletion Circular LinkedLIst](DeletionCircularLL.cpp)
-    
-    DeletionCircularLL is a combination of functions 1 and 2. 
-    
-    Time complexity = O(1)
-
-
-- [Flatten List](Flatten_List.cpp)
-
-    Flatten_List is to make the list flat by removing the overlay. 
-    
-    Time complexity = O(n)
-
-- [Insert A Node Linked List](InsertANodeLinkedList.cpp)
-
-    InsertANodeLinkedList is similar to the insert of the Circular Linked List, but there is a difference that it is not circular. 
-    
-    Time complexity = O(n)
-
-- [Merge Sort in Linked List](MergeSort%20in%20Linked%20List.cpp)  
-
-    MergeSort in Linked List is linked list is a method of subdivision and merging using Merge sort to solve the disadvantage of large time complexity. 
-    
-    Time complexity = O(nlog n)
-
-- [Ordered Linked List Strings](OrderedLinkedListStrings.cpp) 
-
-    OrderedLinkedListStrings is to sort linked lists by alphabetical order of String. 
-    
-    Time complexity = O(n)
-
-- [Reverse A Linked List](ReverseALinkedList.cpp)
-
-    ReverseALinkedList uses LIFO, and if the way in which data is printed first is FIFO, the way in which the last data is printed first is called LIFO.  
-    
-    Time complexity = O(n)
-
